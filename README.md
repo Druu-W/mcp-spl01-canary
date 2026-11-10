@@ -30,3 +30,12 @@ All tokens in the canary system prompt are synthetic. No real credential appears
 
 Note: in `original_audit/accounting.md` and `accounting_final.md`, the name of one model used only in two
 pilot runs outside the paper's scope was replaced with "other-model (pilot)". No counts were changed.
+
+## 3. Materials of the original experiment (added for the revision)
+- `original_audit/materials/prompts.json`: user prompts per test case and variant, as logged
+- `original_audit/materials/tool_schemas.json`: tool definitions exactly as exposed to the models (contains every payload the models saw)
+- `original_audit/materials/api_parameters.md`: API endpoints and parameters
+- `original_audit/original_scripts/`: original analysis scripts (detector functions) and harness runners
+- `original_audit/ea01_toollog.py`, `ea01_toollog.csv`: EA-01 scored from executed tool calls
+
+MCP server implementations are not included; the tool schemas contain all server content the models received.
