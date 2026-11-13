@@ -38,7 +38,7 @@ Why: the author was no longer blind to the labels.
 Registered: two annotators (type not specified).
 Change: annotator A is a human (an undergraduate student not involved in the
 study design, blind to model identity). No independent second human annotation
-was available, so annotator B is an LLM: Gemini 3 <variant>, used through the
+was available, so annotator B is an LLM: Gemini 3, used through the
 Gemini web app on 2026-11-09, prompted with the codebook in batches of 25
 rows. A first LLM session (R001-R050, including one re-check request for
 R001-R025) was discarded and the prompt revised to restate the codebook's
